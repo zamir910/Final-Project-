@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Announcements - Indus Public School</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+            padding-bottom: 80px;
+        }
+        header {
+            background-color: #8B0000;
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        header img {
+            width: 100px;
+            border-radius: 50%;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        nav a {
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #8B0000;
+            border-radius: 8px;
+            transition: 0.3s;
+            font-weight: 600;
+        }
+        nav a:hover {
+            background-color: #600000;
+            transform: scale(1.1);
+        }
+        .container {
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 800px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        .announcement {
+            background: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .announcement h3 {
+            color: #8B0000;
+        }
+        .announcement .date {
+            font-size: 14px;
+            color: gray;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="iphs.jpg" alt="School Logo">
+    <h1>Indus Public School</h1>
+    <h2>Lal Shahbaz Colony, Kotri</h2>
+</header>
+
+<nav>
+    <a href="FINAL.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="announcements.html" class="active">Announcements</a>
+    <a href="database.html">Database</a>
+    <a href="dictionary.html">Dictionary</a>
+    <a href="result.html">Results</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+    <h2>Latest Announcements</h2>
+    <div class="announcement">
+        <h3>Annual Sports Day</h3>
+        <p>Join us for our Annual Sports Day on March 15, 2025. Exciting games and competitions await!</p>
+        <span class="date">Posted: March 1, 2025</span>
+    </div>
+    <div class="announcement">
+        <h3>Parent-Teacher Meeting</h3>
+        <p>PTM is scheduled for March 10, 2025. Please ensure your presence to discuss your child’s progress.</p>
+        <span class="date">Posted: February 28, 2025</span>
+    </div>
+    <div class="announcement">
+        <h3>Admissions Open</h3>
+        <p>Admissions for the 2025 session are now open! Apply before April 30, 2025.</p>
+        <span class="date">Posted: February 25, 2025</span>
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 Indus Public School | All Rights Reserved
+</footer>
+</body>
+</html>
